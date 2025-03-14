@@ -37,7 +37,6 @@ nav ul li a {
 }
 
 #hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
     color: black;
     padding: 5em 0;
     text-align: center;
