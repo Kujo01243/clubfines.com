@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -40,12 +43,14 @@ nav ul li a {
     color: black;
     padding: 5em 0;
     text-align: center;
+    flex-grow: 1;
 }
 
 section {
     padding: 2em 0;
     text-align: center;
     color: black;
+    flex-grow: 1;
 }
 
 form {
@@ -71,6 +76,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
+    margin-top: auto;
 }
 
 footer a {
